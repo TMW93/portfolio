@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+nav {
+  display: flex;
+  width: 20%;
+  overflow: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav li {
+  margin: 0;
+  padding: 1%;
+  text-align: center;
+}
