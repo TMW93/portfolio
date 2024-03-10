@@ -1,7 +1,7 @@
 :root {
   --colour-palette-1: rgb(34, 8, 138);
   --colour-palette-2: rgb(20, 85, 206);
-  --colour-white: white;
+  --colour-white: rgb(228, 240, 245);
 }
 
 body {
@@ -53,17 +53,38 @@ nav:hover li {
 
 main {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
+section {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+article {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
 h2 {
   font-size: 200%;
+  padding: 1%;
 }
 
 .image-container {
   display: flex;
   flex-wrap: wrap;
+  height: 500px;
   justify-content: space-evenly;
   align-items: stretch;
   width: 100%;
@@ -105,7 +126,20 @@ h2 {
   color: var(--colour-white);
 }
 
+.contact-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
 footer {
-  position: absolute;
-  bottom: 0%;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
 }
