@@ -70,6 +70,7 @@ main {
 h2 {
   font-size: 200%;
   padding: 1%;
+  text-align: center;
 }
 
 section {
@@ -94,6 +95,11 @@ article {
 
 
 /* My work styles */
+
+.work-section {
+  margin-bottom: 5%;
+  height: 900px;
+}
 
 .image-container {
   display: flex;
@@ -147,11 +153,42 @@ article {
 
 /* Contact section styles */
 
+.contact-section {
+  width: 100%s;
+  line-height: 1.5;
+}
+
+#contact-me {
+  padding-bottom: 5%;
+}
+
 .contact-me-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 600px;
+  height: 300px;
+  width: 100%;
+}
+
+.contact-me-list {
+  display: flex;
+}
+
+.contact-me-list ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-me-list li {
+  list-style: none;
+  margin: 0%;
+  padding: 1% 5%;
+  text-align: center;
+  width: 100%;
+}
+
+.contact-me-list:hover li {
+  cursor: pointer;
 }
 
 /* Footer styles */
