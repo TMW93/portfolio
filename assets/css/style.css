@@ -128,9 +128,6 @@ h2 {
 
 .image-content:hover img {
   opacity: 100%;
-}
-
-.image-content:hover a {
   cursor: pointer;
 }
 
