@@ -23,7 +23,7 @@ header {
 }
 
 h1 {
-  font-size: 300%;
+  font-size: 450%;
 }
 
 .header-container {
@@ -60,6 +60,7 @@ nav:hover li {
 }
 
 /* Main styles */
+
 main {
   display: flex;
   justify-content: center;
@@ -68,9 +69,10 @@ main {
 }
 
 h2 {
-  font-size: 200%;
+  font-size: 250%;
   padding: 1%;
   text-align: center;
+  width: 100%;
 }
 
 section {
@@ -82,17 +84,27 @@ section {
 
 article {
   padding: 1%;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
 }
 
 .about-me-container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 300px;
+  height: 500px;
+  width: 100%;
 }
 
+#about-me-image {
+  height: 300px;
+  position: absolute;
+  left: 10%;
+}
+
+#about-me-blurb {
+  position: absolute;
+  left: 50%;
+}
 
 /* My work styles */
 
@@ -182,7 +194,8 @@ article {
 .contact-me-list li {
   list-style: none;
   margin: 0%;
-  padding: 1% 5%;
+  margin-right: 10%;
+  margin-bottom: 5%;
   text-align: center;
   width: 100%;
 }
@@ -198,6 +211,7 @@ footer {
 }
 
 /* Screen styles */
+
 @media screen and (max-width: 768px) {
   main {
     flex-direction: column;
