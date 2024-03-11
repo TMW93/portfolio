@@ -1,7 +1,7 @@
 :root {
   --colour-palette-1: rgb(34, 8, 138);
   --colour-palette-2: rgb(20, 85, 206);
-  --colour-white: rgb(228, 240, 245);
+  --colour-background: rgb(228, 240, 245);
 }
 
 body {
@@ -12,11 +12,18 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--colour-palette-2);
   padding: 1%;
   margin-bottom: 2%;
+  width: 100%;
+  background-image: url(../images/workstation-image.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
 }
 
 h1 {
@@ -32,7 +39,6 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
 }
 
@@ -44,7 +50,7 @@ nav li {
 }
 
 nav a {
-  color: var(--colour-white);
+  color: rgb(34, 21, 214);
 }
 
 nav:hover li {
@@ -84,7 +90,7 @@ h2 {
 .image-container {
   display: flex;
   flex-wrap: wrap;
-  height: 500px;
+  height: 700px;
   justify-content: space-evenly;
   align-items: stretch;
   width: 100%;
@@ -105,6 +111,10 @@ h2 {
   width: 100%;
 }
 
+.main-work {
+  height: 500px;
+  width: 100%;
+}
 .main-work, .other-work-1, .other-work-2, .other-work-3, .other-work-4 {
   display: flex;
   flex-wrap: wrap;
@@ -123,7 +133,7 @@ h2 {
 .work-box {
   padding: 1%;
   background-color: var(--colour-palette-1);
-  color: var(--colour-white);
+  color: var(--colour-background);
 }
 
 .contact-me-container {
