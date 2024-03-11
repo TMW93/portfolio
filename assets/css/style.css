@@ -229,7 +229,7 @@ article {
   cursor: pointer;
 }
 
-.contact-github:hover a {
+#contact-github:hover a {
   color: var(--colour-palette-2);
 }
 
