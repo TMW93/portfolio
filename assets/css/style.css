@@ -11,6 +11,8 @@ body {
   background-color: rgb(173, 178, 182);
 }
 
+/* Header styles */
+
 header {
   padding: 1%;
   margin-bottom: 2%;
@@ -20,14 +22,14 @@ header {
   background-position: center;
 }
 
+h1 {
+  font-size: 300%;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
   height: 300px;
-}
-
-h1 {
-  font-size: 300%;
 }
 
 nav {
@@ -57,6 +59,7 @@ nav:hover li {
   cursor: pointer;
 }
 
+/* Main styles */
 main {
   display: flex;
   justify-content: center;
@@ -64,10 +67,17 @@ main {
   flex-direction: column;
 }
 
+h2 {
+  font-size: 200%;
+  padding: 1%;
+}
+
 section {
   padding: 1%;
   margin-bottom: 1%;
 }
+
+/* About me styles */
 
 article {
   padding: 1%;
@@ -82,10 +92,8 @@ article {
   height: 300px;
 }
 
-h2 {
-  font-size: 200%;
-  padding: 1%;
-}
+
+/* My work styles */
 
 .image-container {
   display: flex;
@@ -137,18 +145,22 @@ h2 {
   color: var(--colour-background);
 }
 
+/* Contact section styles */
+
 .contact-me-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 600px;
 }
 
+/* Footer styles */
+
 footer {
   position: relative;
 }
 
+/* Screen styles */
 @media screen and (max-width: 768px) {
   main {
     flex-direction: column;
