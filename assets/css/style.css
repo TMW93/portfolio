@@ -68,8 +68,9 @@ nav a {
   color: var(--colour-palette-2);
 }
 
-nav:hover li {
+#about-me-link:hover a, #my-work-link:hover a, #contact-me-link:hover a {
   cursor: pointer;
+  color: white;
 }
 
 /* Main styles */
@@ -87,6 +88,7 @@ h2 {
   text-align: center;
   width: 100%;
   color: var(--colour-palette-2);
+  text-decoration: underline;
 }
 
 section {
@@ -105,7 +107,7 @@ article {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 31em;
+  height: 31.25em;
   width: 100%;
 }
 
@@ -152,7 +154,7 @@ article {
 }
 
 #main-work {
-  height: 31em;
+  height: 31.25em;
   width: 100%;
 }
 .main-work, .other-work-1, .other-work-2, .other-work-3, .other-work-4 {
@@ -227,6 +229,10 @@ article {
   cursor: pointer;
 }
 
+.contact-github:hover a {
+  color: var(--colour-palette-2);
+}
+
 /* Footer styles */
 
 footer {
@@ -236,7 +242,7 @@ footer {
 /* Screen styles */
 
 @media screen and (max-width: 768px) {
-  main {
+  header, main {
     flex-direction: column;
   }
 
