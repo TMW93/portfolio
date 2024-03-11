@@ -130,6 +130,10 @@ h2 {
   opacity: 100%;
 }
 
+.image-content:hover a {
+  cursor: pointer;
+}
+
 .work-box {
   padding: 1%;
   background-color: var(--colour-palette-1);
