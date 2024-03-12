@@ -188,6 +188,7 @@ article {
   height: 6em;
   width: 20%;
 }
+
 /* Contact section styles */
 
 .contact-section {
@@ -229,7 +230,7 @@ article {
   cursor: pointer;
 }
 
-#contact-github:hover a {
+#contact-phone:hover a, #contact-email:hover a, #contact-github:hover a, #contact-4th-placeholder:hover a {
   color: var(--colour-palette-2);
 }
 
@@ -255,6 +256,11 @@ footer {
     width: 30%;
     overflow: auto;
   }
+
+  .contact-section {
+    margin-top: 10%;
+  }
+  
 }
 
 @media screen and (max-width: 992px) {
@@ -270,6 +276,10 @@ footer {
   .work-box {
     width: 30%;
     overflow: auto;
+  }
+
+  .contact-section {
+    margin-top: 10%;
   }
 
 }
