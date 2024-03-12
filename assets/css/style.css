@@ -186,7 +186,7 @@ article {
 
 #work-descript-main {
   height: 6em;
-  width: 30%;
+  width: 20%;
 }
 /* Contact section styles */
 
@@ -246,7 +246,30 @@ footer {
     flex-direction: column;
   }
 
-  .work-box {
+  #work-descript-main {
+    width: 30%;
     overflow: auto;
   }
+
+  .work-box {
+    width: 30%;
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header, main {
+    flex-direction: column;
+  }
+
+  #work-descript-main {
+    width: 30%;
+    overflow: auto;
+  }
+
+  .work-box {
+    width: 30%;
+    overflow: auto;
+  }
+
 }
